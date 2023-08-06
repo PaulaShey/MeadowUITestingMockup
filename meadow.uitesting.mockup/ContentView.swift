@@ -9,10 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-        }
-        .padding()
-    }
+        Text("")
 }
 
 struct ContentView_Previews: PreviewProvider {
