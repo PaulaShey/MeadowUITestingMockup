@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "7D4378BE-9F54-4601-8CFE-4B68A07C82E3",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:meadow.uitesting.mockup.xcodeproj",
+        "identifier" : "DAE3B3612A7AB9DF004C572A",
+        "name" : "meadow.uitesting.mockupUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:meadow.uitesting.mockup.xcodeproj",
+        "identifier" : "DAE3B3572A7AB9DE004C572A",
+        "name" : "meadow.uitesting.mockupTests"
+      }
+    }
+  ],
+  "version" : 1
+}
