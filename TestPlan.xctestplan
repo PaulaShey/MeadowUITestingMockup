@@ -20,6 +20,7 @@
       }
     },
     {
+      "enabled" : false,
       "target" : {
         "containerPath" : "container:meadow.uitesting.mockup.xcodeproj",
         "identifier" : "DAE3B3572A7AB9DE004C572A",

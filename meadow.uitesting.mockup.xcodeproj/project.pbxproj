@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DABFBC292A7FFAD00055185C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34C2A7AB9DD004C572A /* ContentView.swift */; };
+		DABFBC2A2A7FFAD00055185C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34C2A7AB9DD004C572A /* ContentView.swift */; };
+		DABFBC2B2A7FFAE90055185C /* meadow_uitesting_mockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */; };
+		DABFBC2C2A7FFAE90055185C /* meadow_uitesting_mockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */; };
 		DAE3B34B2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */; };
 		DAE3B34D2A7AB9DD004C572A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34C2A7AB9DD004C572A /* ContentView.swift */; };
 		DAE3B34F2A7AB9DE004C572A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3B34E2A7AB9DE004C572A /* Assets.xcassets */; };
@@ -270,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABFBC292A7FFAD00055185C /* ContentView.swift in Sources */,
 				DAE3B35D2A7AB9DE004C572A /* meadow_uitesting_mockupTests.swift in Sources */,
+				DABFBC2B2A7FFAE90055185C /* meadow_uitesting_mockupApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABFBC2C2A7FFAE90055185C /* meadow_uitesting_mockupApp.swift in Sources */,
 				DAE3B3672A7AB9DF004C572A /* meadow_uitesting_mockupUITests.swift in Sources */,
 				DAE3B3692A7AB9DF004C572A /* meadow_uitesting_mockupUITestsLaunchTests.swift in Sources */,
+				DABFBC2A2A7FFAD00055185C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,13 +423,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = meadow.uitesting.mockup/meadow_uitesting_mockup.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"meadow.uitesting.mockup/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = S3J4DS9F7R;
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = S3J4DS9F7R;
+				DEVELOPMENT_TEAM = S3J4DS9F7R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -443,8 +448,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.wildland.meadow.uitesting.mockup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Meadow UI Testing Mockup iOS";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Meadow UI Testing Mockup macOS";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -460,13 +463,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = meadow.uitesting.mockup/meadow_uitesting_mockup.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"meadow.uitesting.mockup/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = S3J4DS9F7R;
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = S3J4DS9F7R;
+				DEVELOPMENT_TEAM = S3J4DS9F7R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -488,8 +488,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.wildland.meadow.uitesting.mockup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Meadow UI Testing Mockup iOS";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Meadow UI Testing Mockup macOS";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
