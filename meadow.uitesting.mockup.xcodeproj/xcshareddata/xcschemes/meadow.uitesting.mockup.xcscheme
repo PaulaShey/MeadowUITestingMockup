@@ -50,7 +50,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DAE3B3612A7AB9DF004C572A"
+               BlueprintIdentifier = "DABFBC3B2A93979D0055185C"
                BuildableName = "meadow.uitesting.mockupUITests.xctest"
                BlueprintName = "meadow.uitesting.mockupUITests"
                ReferencedContainer = "container:meadow.uitesting.mockup.xcodeproj">

@@ -7,28 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DABFBC292A7FFAD00055185C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34C2A7AB9DD004C572A /* ContentView.swift */; };
-		DABFBC2A2A7FFAD00055185C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34C2A7AB9DD004C572A /* ContentView.swift */; };
-		DABFBC2B2A7FFAE90055185C /* meadow_uitesting_mockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */; };
-		DABFBC2C2A7FFAE90055185C /* meadow_uitesting_mockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */; };
+		DABFBC3F2A93979D0055185C /* meadow_uitesting_mockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFBC3E2A93979D0055185C /* meadow_uitesting_mockupUITests.swift */; };
+		DABFBC412A93979D0055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFBC402A93979D0055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift */; };
 		DAE3B34B2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */; };
 		DAE3B34D2A7AB9DD004C572A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34C2A7AB9DD004C572A /* ContentView.swift */; };
 		DAE3B34F2A7AB9DE004C572A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3B34E2A7AB9DE004C572A /* Assets.xcassets */; };
 		DAE3B3532A7AB9DE004C572A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3B3522A7AB9DE004C572A /* Preview Assets.xcassets */; };
-		DAE3B35D2A7AB9DE004C572A /* meadow_uitesting_mockupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B35C2A7AB9DE004C572A /* meadow_uitesting_mockupTests.swift */; };
-		DAE3B3672A7AB9DF004C572A /* meadow_uitesting_mockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B3662A7AB9DF004C572A /* meadow_uitesting_mockupUITests.swift */; };
-		DAE3B3692A7AB9DF004C572A /* meadow_uitesting_mockupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B3682A7AB9DF004C572A /* meadow_uitesting_mockupUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DAE3B3592A7AB9DE004C572A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAE3B33F2A7AB9DD004C572A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DAE3B3462A7AB9DD004C572A;
-			remoteInfo = meadow.uitesting.mockup;
-		};
-		DAE3B3632A7AB9DF004C572A /* PBXContainerItemProxy */ = {
+		DABFBC422A93979D0055185C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DAE3B33F2A7AB9DD004C572A /* Project object */;
 			proxyType = 1;
@@ -39,35 +27,29 @@
 
 /* Begin PBXFileReference section */
 		DABFBC372A93956D0055185C /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		DABFBC3C2A93979D0055185C /* meadow.uitesting.mockupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meadow.uitesting.mockupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABFBC3E2A93979D0055185C /* meadow_uitesting_mockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITests.swift; sourceTree = "<group>"; };
+		DABFBC402A93979D0055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DAE3B3472A7AB9DD004C572A /* meadow.uitesting.mockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meadow.uitesting.mockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupApp.swift; sourceTree = "<group>"; };
 		DAE3B34C2A7AB9DD004C572A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAE3B34E2A7AB9DE004C572A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAE3B3502A7AB9DE004C572A /* meadow_uitesting_mockup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = meadow_uitesting_mockup.entitlements; sourceTree = "<group>"; };
 		DAE3B3522A7AB9DE004C572A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DAE3B3582A7AB9DE004C572A /* meadow.uitesting.mockupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meadow.uitesting.mockupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3B35C2A7AB9DE004C572A /* meadow_uitesting_mockupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupTests.swift; sourceTree = "<group>"; };
-		DAE3B3622A7AB9DF004C572A /* meadow.uitesting.mockupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meadow.uitesting.mockupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3B3662A7AB9DF004C572A /* meadow_uitesting_mockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITests.swift; sourceTree = "<group>"; };
 		DAE3B3682A7AB9DF004C572A /* meadow_uitesting_mockupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DABFBC392A93979D0055185C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DAE3B3442A7AB9DD004C572A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAE3B3552A7AB9DE004C572A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAE3B35F2A7AB9DF004C572A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DABFBC3D2A93979D0055185C /* meadow.uitesting.mockupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DABFBC3E2A93979D0055185C /* meadow_uitesting_mockupUITests.swift */,
+				DABFBC402A93979D0055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift */,
+			);
+			path = meadow.uitesting.mockupUITests;
+			sourceTree = "<group>";
+		};
 		DAE3B33E2A7AB9DD004C572A = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +75,7 @@
 				DAE3B3492A7AB9DD004C572A /* meadow.uitesting.mockup */,
 				DAE3B35B2A7AB9DE004C572A /* meadow.uitesting.mockupTests */,
 				DAE3B3652A7AB9DF004C572A /* meadow.uitesting.mockupUITests */,
+				DABFBC3D2A93979D0055185C /* meadow.uitesting.mockupUITests */,
 				DAE3B3482A7AB9DD004C572A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				DAE3B3472A7AB9DD004C572A /* meadow.uitesting.mockup.app */,
-				DAE3B3582A7AB9DE004C572A /* meadow.uitesting.mockupTests.xctest */,
-				DAE3B3622A7AB9DF004C572A /* meadow.uitesting.mockupUITests.xctest */,
+				DABFBC3C2A93979D0055185C /* meadow.uitesting.mockupUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +129,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DABFBC3B2A93979D0055185C /* meadow.uitesting.mockupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABFBC442A93979D0055185C /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupUITests" */;
+			buildPhases = (
+				DABFBC382A93979D0055185C /* Sources */,
+				DABFBC392A93979D0055185C /* Frameworks */,
+				DABFBC3A2A93979D0055185C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABFBC432A93979D0055185C /* PBXTargetDependency */,
+			);
+			name = meadow.uitesting.mockupUITests;
+			productName = meadow.uitesting.mockupUITests;
+			productReference = DABFBC3C2A93979D0055185C /* meadow.uitesting.mockupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		DAE3B3462A7AB9DD004C572A /* meadow.uitesting.mockup */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAE3B36C2A7AB9DF004C572A /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockup" */;
@@ -155,42 +164,6 @@
 			productReference = DAE3B3472A7AB9DD004C572A /* meadow.uitesting.mockup.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DAE3B3572A7AB9DE004C572A /* meadow.uitesting.mockupTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DAE3B36F2A7AB9DF004C572A /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupTests" */;
-			buildPhases = (
-				DAE3B3542A7AB9DE004C572A /* Sources */,
-				DAE3B3552A7AB9DE004C572A /* Frameworks */,
-				DAE3B3562A7AB9DE004C572A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DAE3B35A2A7AB9DE004C572A /* PBXTargetDependency */,
-			);
-			name = meadow.uitesting.mockupTests;
-			productName = meadow.uitesting.mockupTests;
-			productReference = DAE3B3582A7AB9DE004C572A /* meadow.uitesting.mockupTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DAE3B3612A7AB9DF004C572A /* meadow.uitesting.mockupUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DAE3B3722A7AB9DF004C572A /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupUITests" */;
-			buildPhases = (
-				DAE3B35E2A7AB9DF004C572A /* Sources */,
-				DAE3B35F2A7AB9DF004C572A /* Frameworks */,
-				DAE3B3602A7AB9DF004C572A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DAE3B3642A7AB9DF004C572A /* PBXTargetDependency */,
-			);
-			name = meadow.uitesting.mockupUITests;
-			productName = meadow.uitesting.mockupUITests;
-			productReference = DAE3B3622A7AB9DF004C572A /* meadow.uitesting.mockupUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,16 +174,12 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					DABFBC3B2A93979D0055185C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DAE3B3462A7AB9DD004C572A;
+					};
 					DAE3B3462A7AB9DD004C572A = {
 						CreatedOnToolsVersion = 14.3;
-					};
-					DAE3B3572A7AB9DE004C572A = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = DAE3B3462A7AB9DD004C572A;
-					};
-					DAE3B3612A7AB9DF004C572A = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = DAE3B3462A7AB9DD004C572A;
 					};
 				};
 			};
@@ -228,13 +197,19 @@
 			projectRoot = "";
 			targets = (
 				DAE3B3462A7AB9DD004C572A /* meadow.uitesting.mockup */,
-				DAE3B3572A7AB9DE004C572A /* meadow.uitesting.mockupTests */,
-				DAE3B3612A7AB9DF004C572A /* meadow.uitesting.mockupUITests */,
+				DABFBC3B2A93979D0055185C /* meadow.uitesting.mockupUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DABFBC3A2A93979D0055185C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DAE3B3452A7AB9DD004C572A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,23 +219,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAE3B3562A7AB9DE004C572A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAE3B3602A7AB9DF004C572A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DABFBC382A93979D0055185C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABFBC3F2A93979D0055185C /* meadow_uitesting_mockupUITests.swift in Sources */,
+				DABFBC412A93979D0055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DAE3B3432A7AB9DD004C572A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,43 +240,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAE3B3542A7AB9DE004C572A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DABFBC292A7FFAD00055185C /* ContentView.swift in Sources */,
-				DAE3B35D2A7AB9DE004C572A /* meadow_uitesting_mockupTests.swift in Sources */,
-				DABFBC2B2A7FFAE90055185C /* meadow_uitesting_mockupApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAE3B35E2A7AB9DF004C572A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DABFBC2C2A7FFAE90055185C /* meadow_uitesting_mockupApp.swift in Sources */,
-				DAE3B3672A7AB9DF004C572A /* meadow_uitesting_mockupUITests.swift in Sources */,
-				DAE3B3692A7AB9DF004C572A /* meadow_uitesting_mockupUITestsLaunchTests.swift in Sources */,
-				DABFBC2A2A7FFAD00055185C /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DAE3B35A2A7AB9DE004C572A /* PBXTargetDependency */ = {
+		DABFBC432A93979D0055185C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DAE3B3462A7AB9DD004C572A /* meadow.uitesting.mockup */;
-			targetProxy = DAE3B3592A7AB9DE004C572A /* PBXContainerItemProxy */;
-		};
-		DAE3B3642A7AB9DF004C572A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DAE3B3462A7AB9DD004C572A /* meadow.uitesting.mockup */;
-			targetProxy = DAE3B3632A7AB9DF004C572A /* PBXContainerItemProxy */;
+			targetProxy = DABFBC422A93979D0055185C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		DABFBC452A93979D0055185C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3J4DS9F7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paula.meadow-uitesting-mockupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meadow.uitesting.mockup;
+			};
+			name = Debug;
+		};
+		DABFBC462A93979D0055185C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3J4DS9F7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paula.meadow-uitesting-mockupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meadow.uitesting.mockup;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		DAE3B36A2A7AB9DF004C572A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -496,107 +479,18 @@
 			};
 			name = Release;
 		};
-		DAE3B3702A7AB9DF004C572A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S3J4DS9F7R;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.wildland.meadow.uitesting.mockup;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meadow.uitesting.mockup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/meadow.uitesting.mockup";
-			};
-			name = Debug;
-		};
-		DAE3B3712A7AB9DF004C572A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S3J4DS9F7R;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.wildland.meadow.uitesting.mockup;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meadow.uitesting.mockup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/meadow.uitesting.mockup";
-			};
-			name = Release;
-		};
-		DAE3B3732A7AB9DF004C572A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S3J4DS9F7R;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.wildland.meadow.uitesting.mockup;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = meadow.uitesting.mockup;
-			};
-			name = Debug;
-		};
-		DAE3B3742A7AB9DF004C572A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S3J4DS9F7R;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.wildland.meadow.uitesting.mockup;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = meadow.uitesting.mockup;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DABFBC442A93979D0055185C /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABFBC452A93979D0055185C /* Debug */,
+				DABFBC462A93979D0055185C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DAE3B3422A7AB9DD004C572A /* Build configuration list for PBXProject "meadow.uitesting.mockup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -611,24 +505,6 @@
 			buildConfigurations = (
 				DAE3B36D2A7AB9DF004C572A /* Debug */,
 				DAE3B36E2A7AB9DF004C572A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DAE3B36F2A7AB9DF004C572A /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAE3B3702A7AB9DF004C572A /* Debug */,
-				DAE3B3712A7AB9DF004C572A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DAE3B3722A7AB9DF004C572A /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAE3B3732A7AB9DF004C572A /* Debug */,
-				DAE3B3742A7AB9DF004C572A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
