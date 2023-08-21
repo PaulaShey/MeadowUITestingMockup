@@ -1,7 +1,7 @@
 {
   "configurations" : [
     {
-      "id" : "7D4378BE-9F54-4601-8CFE-4B68A07C82E3",
+      "id" : "AFE87C4F-E104-4911-89BF-B42BA78795ED",
       "name" : "Configuration 1",
       "options" : {
 
@@ -15,16 +15,15 @@
     {
       "target" : {
         "containerPath" : "container:meadow.uitesting.mockup.xcodeproj",
-        "identifier" : "DAE3B3612A7AB9DF004C572A",
-        "name" : "meadow.uitesting.mockupUITests"
+        "identifier" : "DAE3B3572A7AB9DE004C572A",
+        "name" : "meadow.uitesting.mockupTests"
       }
     },
     {
-      "enabled" : false,
       "target" : {
         "containerPath" : "container:meadow.uitesting.mockup.xcodeproj",
-        "identifier" : "DAE3B3572A7AB9DE004C572A",
-        "name" : "meadow.uitesting.mockupTests"
+        "identifier" : "DAE3B3612A7AB9DF004C572A",
+        "name" : "meadow.uitesting.mockupUITests"
       }
     }
   ],

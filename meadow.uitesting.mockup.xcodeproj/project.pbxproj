@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DABFBC282A7FF45D0055185C /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		DABFBC372A93956D0055185C /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 		DAE3B3472A7AB9DD004C572A /* meadow.uitesting.mockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meadow.uitesting.mockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupApp.swift; sourceTree = "<group>"; };
 		DAE3B34C2A7AB9DD004C572A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		DAE3B33E2A7AB9DD004C572A = {
 			isa = PBXGroup;
 			children = (
-				DABFBC282A7FF45D0055185C /* TestPlan.xctestplan */,
+				DABFBC372A93956D0055185C /* TestPlan.xctestplan */,
 				DAE3B3492A7AB9DD004C572A /* meadow.uitesting.mockup */,
 				DAE3B35B2A7AB9DE004C572A /* meadow.uitesting.mockupTests */,
 				DAE3B3652A7AB9DF004C572A /* meadow.uitesting.mockupUITests */,
