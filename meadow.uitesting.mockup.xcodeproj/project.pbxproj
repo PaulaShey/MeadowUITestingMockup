@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DABFBC3F2A93979D0055185C /* meadow_uitesting_mockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFBC3E2A93979D0055185C /* meadow_uitesting_mockupUITests.swift */; };
-		DABFBC412A93979D0055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFBC402A93979D0055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift */; };
 		DABFBC472A94B5CB0055185C /* meadow_uitesting_mockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */; };
 		DABFBC482A94B5CE0055185C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34C2A7AB9DD004C572A /* ContentView.swift */; };
 		DABFBC492A94B5D00055185C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3B34E2A7AB9DE004C572A /* Assets.xcassets */; };
+		DABFBC4C2A94B8070055185C /* meadow_uitesting_mockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFBC4B2A94B8070055185C /* meadow_uitesting_mockupUITests.swift */; };
 		DAE3B34B2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */; };
 		DAE3B34D2A7AB9DD004C572A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34C2A7AB9DD004C572A /* ContentView.swift */; };
 		DAE3B34F2A7AB9DE004C572A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3B34E2A7AB9DE004C572A /* Assets.xcassets */; };
@@ -30,17 +29,14 @@
 
 /* Begin PBXFileReference section */
 		DABFBC3C2A93979D0055185C /* meadow.uitesting.mockupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meadow.uitesting.mockupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DABFBC3E2A93979D0055185C /* meadow_uitesting_mockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITests.swift; sourceTree = "<group>"; };
-		DABFBC402A93979D0055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DABFBC4A2A94B6180055185C /* meadow.uitesting.mockup.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = meadow.uitesting.mockup.xctestplan; sourceTree = "<group>"; };
+		DABFBC4B2A94B8070055185C /* meadow_uitesting_mockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITests.swift; sourceTree = "<group>"; };
 		DAE3B3472A7AB9DD004C572A /* meadow.uitesting.mockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meadow.uitesting.mockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupApp.swift; sourceTree = "<group>"; };
 		DAE3B34C2A7AB9DD004C572A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAE3B34E2A7AB9DE004C572A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAE3B3502A7AB9DE004C572A /* meadow_uitesting_mockup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = meadow_uitesting_mockup.entitlements; sourceTree = "<group>"; };
 		DAE3B3522A7AB9DE004C572A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DAE3B35C2A7AB9DE004C572A /* meadow_uitesting_mockupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupTests.swift; sourceTree = "<group>"; };
-		DAE3B3662A7AB9DF004C572A /* meadow_uitesting_mockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITests.swift; sourceTree = "<group>"; };
-		DAE3B3682A7AB9DF004C572A /* meadow_uitesting_mockupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,22 +57,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DABFBC3D2A93979D0055185C /* meadow.uitesting.mockupUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DABFBC3E2A93979D0055185C /* meadow_uitesting_mockupUITests.swift */,
-				DABFBC402A93979D0055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift */,
-			);
-			path = meadow.uitesting.mockupUITests;
-			sourceTree = "<group>";
-		};
 		DAE3B33E2A7AB9DD004C572A = {
 			isa = PBXGroup;
 			children = (
+				DABFBC4A2A94B6180055185C /* meadow.uitesting.mockup.xctestplan */,
 				DAE3B3492A7AB9DD004C572A /* meadow.uitesting.mockup */,
-				DAE3B35B2A7AB9DE004C572A /* meadow.uitesting.mockupTests */,
-				DAE3B3652A7AB9DF004C572A /* meadow.uitesting.mockupUITests */,
-				DABFBC3D2A93979D0055185C /* meadow.uitesting.mockupUITests */,
 				DAE3B3482A7AB9DD004C572A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */,
+				DABFBC4B2A94B8070055185C /* meadow_uitesting_mockupUITests.swift */,
 				DAE3B34C2A7AB9DD004C572A /* ContentView.swift */,
 				DAE3B34E2A7AB9DE004C572A /* Assets.xcassets */,
 				DAE3B3502A7AB9DE004C572A /* meadow_uitesting_mockup.entitlements */,
@@ -108,23 +94,6 @@
 				DAE3B3522A7AB9DE004C572A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DAE3B35B2A7AB9DE004C572A /* meadow.uitesting.mockupTests */ = {
-			isa = PBXGroup;
-			children = (
-				DAE3B35C2A7AB9DE004C572A /* meadow_uitesting_mockupTests.swift */,
-			);
-			path = meadow.uitesting.mockupTests;
-			sourceTree = "<group>";
-		};
-		DAE3B3652A7AB9DF004C572A /* meadow.uitesting.mockupUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DAE3B3662A7AB9DF004C572A /* meadow_uitesting_mockupUITests.swift */,
-				DAE3B3682A7AB9DF004C572A /* meadow_uitesting_mockupUITestsLaunchTests.swift */,
-			);
-			path = meadow.uitesting.mockupUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,10 +197,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DABFBC3F2A93979D0055185C /* meadow_uitesting_mockupUITests.swift in Sources */,
-				DABFBC412A93979D0055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift in Sources */,
 				DABFBC482A94B5CE0055185C /* ContentView.swift in Sources */,
 				DABFBC472A94B5CB0055185C /* meadow_uitesting_mockupApp.swift in Sources */,
+				DABFBC4C2A94B8070055185C /* meadow_uitesting_mockupUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
