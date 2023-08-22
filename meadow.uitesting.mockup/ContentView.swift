@@ -2,13 +2,25 @@
 //  ContentView.swift
 //  meadow.uitesting.mockup
 //
-//  Created by Paulina Grużewska on 02/08/2023.
+//  Created by Paulina Grużewska on 22/08/2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("")
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }

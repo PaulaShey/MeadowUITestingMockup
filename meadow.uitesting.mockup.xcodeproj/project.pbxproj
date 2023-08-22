@@ -7,47 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DABFBC472A94B5CB0055185C /* meadow_uitesting_mockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */; };
-		DABFBC482A94B5CE0055185C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34C2A7AB9DD004C572A /* ContentView.swift */; };
-		DABFBC492A94B5D00055185C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3B34E2A7AB9DE004C572A /* Assets.xcassets */; };
-		DABFBC4C2A94B8070055185C /* meadow_uitesting_mockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFBC4B2A94B8070055185C /* meadow_uitesting_mockupUITests.swift */; };
-		DAE3B34B2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */; };
-		DAE3B34D2A7AB9DD004C572A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B34C2A7AB9DD004C572A /* ContentView.swift */; };
-		DAE3B34F2A7AB9DE004C572A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3B34E2A7AB9DE004C572A /* Assets.xcassets */; };
-		DAE3B3532A7AB9DE004C572A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3B3522A7AB9DE004C572A /* Preview Assets.xcassets */; };
+		DABFBC9C2A94BA470055185C /* meadow_uitesting_mockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFBC9B2A94BA470055185C /* meadow_uitesting_mockupApp.swift */; };
+		DABFBC9E2A94BA470055185C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFBC9D2A94BA470055185C /* ContentView.swift */; };
+		DABFBCA02A94BA480055185C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABFBC9F2A94BA480055185C /* Assets.xcassets */; };
+		DABFBCA42A94BA480055185C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABFBCA32A94BA480055185C /* Preview Assets.xcassets */; };
+		DABFBCAE2A94BA480055185C /* meadow_uitesting_mockupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFBCAD2A94BA480055185C /* meadow_uitesting_mockupTests.swift */; };
+		DABFBCB82A94BA480055185C /* meadow_uitesting_mockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFBCB72A94BA480055185C /* meadow_uitesting_mockupUITests.swift */; };
+		DABFBCBA2A94BA480055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFBCB92A94BA480055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DABFBC422A93979D0055185C /* PBXContainerItemProxy */ = {
+		DABFBCAA2A94BA480055185C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DAE3B33F2A7AB9DD004C572A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DAE3B3462A7AB9DD004C572A;
+			remoteGlobalIDString = DABFBC982A94BA470055185C;
+			remoteInfo = meadow.uitesting.mockup;
+		};
+		DABFBCB42A94BA480055185C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE3B33F2A7AB9DD004C572A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABFBC982A94BA470055185C;
 			remoteInfo = meadow.uitesting.mockup;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DABFBC3C2A93979D0055185C /* meadow.uitesting.mockupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meadow.uitesting.mockupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DABFBC4A2A94B6180055185C /* meadow.uitesting.mockup.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = meadow.uitesting.mockup.xctestplan; sourceTree = "<group>"; };
-		DABFBC4B2A94B8070055185C /* meadow_uitesting_mockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITests.swift; sourceTree = "<group>"; };
-		DAE3B3472A7AB9DD004C572A /* meadow.uitesting.mockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meadow.uitesting.mockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupApp.swift; sourceTree = "<group>"; };
-		DAE3B34C2A7AB9DD004C572A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DAE3B34E2A7AB9DE004C572A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DAE3B3502A7AB9DE004C572A /* meadow_uitesting_mockup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = meadow_uitesting_mockup.entitlements; sourceTree = "<group>"; };
-		DAE3B3522A7AB9DE004C572A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DABFBC992A94BA470055185C /* meadow.uitesting.mockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meadow.uitesting.mockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABFBC9B2A94BA470055185C /* meadow_uitesting_mockupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupApp.swift; sourceTree = "<group>"; };
+		DABFBC9D2A94BA470055185C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DABFBC9F2A94BA480055185C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABFBCA12A94BA480055185C /* meadow_uitesting_mockup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = meadow_uitesting_mockup.entitlements; sourceTree = "<group>"; };
+		DABFBCA32A94BA480055185C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DABFBCA92A94BA480055185C /* meadow.uitesting.mockupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meadow.uitesting.mockupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABFBCAD2A94BA480055185C /* meadow_uitesting_mockupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupTests.swift; sourceTree = "<group>"; };
+		DABFBCB32A94BA480055185C /* meadow.uitesting.mockupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meadow.uitesting.mockupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABFBCB72A94BA480055185C /* meadow_uitesting_mockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITests.swift; sourceTree = "<group>"; };
+		DABFBCB92A94BA480055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meadow_uitesting_mockupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DABFBCC42A94BA900055185C /* meadow.uitesting.mockup.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = meadow.uitesting.mockup.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DABFBC392A93979D0055185C /* Frameworks */ = {
+		DABFBC962A94BA470055185C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAE3B3442A7AB9DD004C572A /* Frameworks */ = {
+		DABFBCA62A94BA480055185C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABFBCB02A94BA480055185C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,11 +73,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DABFBC9A2A94BA470055185C /* meadow.uitesting.mockup */ = {
+			isa = PBXGroup;
+			children = (
+				DABFBC9B2A94BA470055185C /* meadow_uitesting_mockupApp.swift */,
+				DABFBC9D2A94BA470055185C /* ContentView.swift */,
+				DABFBC9F2A94BA480055185C /* Assets.xcassets */,
+				DABFBCA12A94BA480055185C /* meadow_uitesting_mockup.entitlements */,
+				DABFBCA22A94BA480055185C /* Preview Content */,
+			);
+			path = meadow.uitesting.mockup;
+			sourceTree = "<group>";
+		};
+		DABFBCA22A94BA480055185C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DABFBCA32A94BA480055185C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DABFBCAC2A94BA480055185C /* meadow.uitesting.mockupTests */ = {
+			isa = PBXGroup;
+			children = (
+				DABFBCAD2A94BA480055185C /* meadow_uitesting_mockupTests.swift */,
+			);
+			path = meadow.uitesting.mockupTests;
+			sourceTree = "<group>";
+		};
+		DABFBCB62A94BA480055185C /* meadow.uitesting.mockupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DABFBCB72A94BA480055185C /* meadow_uitesting_mockupUITests.swift */,
+				DABFBCB92A94BA480055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift */,
+			);
+			path = meadow.uitesting.mockupUITests;
+			sourceTree = "<group>";
+		};
 		DAE3B33E2A7AB9DD004C572A = {
 			isa = PBXGroup;
 			children = (
-				DABFBC4A2A94B6180055185C /* meadow.uitesting.mockup.xctestplan */,
-				DAE3B3492A7AB9DD004C572A /* meadow.uitesting.mockup */,
+				DABFBCC42A94BA900055185C /* meadow.uitesting.mockup.xctestplan */,
+				DABFBC9A2A94BA470055185C /* meadow.uitesting.mockup */,
+				DABFBCAC2A94BA480055185C /* meadow.uitesting.mockupTests */,
+				DABFBCB62A94BA480055185C /* meadow.uitesting.mockupUITests */,
 				DAE3B3482A7AB9DD004C572A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,61 +124,23 @@
 		DAE3B3482A7AB9DD004C572A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAE3B3472A7AB9DD004C572A /* meadow.uitesting.mockup.app */,
-				DABFBC3C2A93979D0055185C /* meadow.uitesting.mockupUITests.xctest */,
+				DABFBC992A94BA470055185C /* meadow.uitesting.mockup.app */,
+				DABFBCA92A94BA480055185C /* meadow.uitesting.mockupTests.xctest */,
+				DABFBCB32A94BA480055185C /* meadow.uitesting.mockupUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		DAE3B3492A7AB9DD004C572A /* meadow.uitesting.mockup */ = {
-			isa = PBXGroup;
-			children = (
-				DAE3B34A2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift */,
-				DABFBC4B2A94B8070055185C /* meadow_uitesting_mockupUITests.swift */,
-				DAE3B34C2A7AB9DD004C572A /* ContentView.swift */,
-				DAE3B34E2A7AB9DE004C572A /* Assets.xcassets */,
-				DAE3B3502A7AB9DE004C572A /* meadow_uitesting_mockup.entitlements */,
-				DAE3B3512A7AB9DE004C572A /* Preview Content */,
-			);
-			path = meadow.uitesting.mockup;
-			sourceTree = "<group>";
-		};
-		DAE3B3512A7AB9DE004C572A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				DAE3B3522A7AB9DE004C572A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DABFBC3B2A93979D0055185C /* meadow.uitesting.mockupUITests */ = {
+		DABFBC982A94BA470055185C /* meadow.uitesting.mockup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DABFBC442A93979D0055185C /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupUITests" */;
+			buildConfigurationList = DABFBCBB2A94BA480055185C /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockup" */;
 			buildPhases = (
-				DABFBC382A93979D0055185C /* Sources */,
-				DABFBC392A93979D0055185C /* Frameworks */,
-				DABFBC3A2A93979D0055185C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DABFBC432A93979D0055185C /* PBXTargetDependency */,
-			);
-			name = meadow.uitesting.mockupUITests;
-			productName = meadow.uitesting.mockupUITests;
-			productReference = DABFBC3C2A93979D0055185C /* meadow.uitesting.mockupUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		DAE3B3462A7AB9DD004C572A /* meadow.uitesting.mockup */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DAE3B36C2A7AB9DF004C572A /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockup" */;
-			buildPhases = (
-				DAE3B3432A7AB9DD004C572A /* Sources */,
-				DAE3B3442A7AB9DD004C572A /* Frameworks */,
-				DAE3B3452A7AB9DD004C572A /* Resources */,
+				DABFBC952A94BA470055185C /* Sources */,
+				DABFBC962A94BA470055185C /* Frameworks */,
+				DABFBC972A94BA470055185C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -131,8 +148,44 @@
 			);
 			name = meadow.uitesting.mockup;
 			productName = meadow.uitesting.mockup;
-			productReference = DAE3B3472A7AB9DD004C572A /* meadow.uitesting.mockup.app */;
+			productReference = DABFBC992A94BA470055185C /* meadow.uitesting.mockup.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DABFBCA82A94BA480055185C /* meadow.uitesting.mockupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABFBCBE2A94BA480055185C /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupTests" */;
+			buildPhases = (
+				DABFBCA52A94BA480055185C /* Sources */,
+				DABFBCA62A94BA480055185C /* Frameworks */,
+				DABFBCA72A94BA480055185C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABFBCAB2A94BA480055185C /* PBXTargetDependency */,
+			);
+			name = meadow.uitesting.mockupTests;
+			productName = meadow.uitesting.mockupTests;
+			productReference = DABFBCA92A94BA480055185C /* meadow.uitesting.mockupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DABFBCB22A94BA480055185C /* meadow.uitesting.mockupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABFBCC12A94BA480055185C /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupUITests" */;
+			buildPhases = (
+				DABFBCAF2A94BA480055185C /* Sources */,
+				DABFBCB02A94BA480055185C /* Frameworks */,
+				DABFBCB12A94BA480055185C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABFBCB52A94BA480055185C /* PBXTargetDependency */,
+			);
+			name = meadow.uitesting.mockupUITests;
+			productName = meadow.uitesting.mockupUITests;
+			productReference = DABFBCB32A94BA480055185C /* meadow.uitesting.mockupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -144,12 +197,16 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					DABFBC3B2A93979D0055185C = {
+					DABFBC982A94BA470055185C = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = DAE3B3462A7AB9DD004C572A;
 					};
-					DAE3B3462A7AB9DD004C572A = {
+					DABFBCA82A94BA480055185C = {
 						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DABFBC982A94BA470055185C;
+					};
+					DABFBCB22A94BA480055185C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DABFBC982A94BA470055185C;
 					};
 				};
 			};
@@ -166,75 +223,219 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAE3B3462A7AB9DD004C572A /* meadow.uitesting.mockup */,
-				DABFBC3B2A93979D0055185C /* meadow.uitesting.mockupUITests */,
+				DABFBC982A94BA470055185C /* meadow.uitesting.mockup */,
+				DABFBCA82A94BA480055185C /* meadow.uitesting.mockupTests */,
+				DABFBCB22A94BA480055185C /* meadow.uitesting.mockupUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DABFBC3A2A93979D0055185C /* Resources */ = {
+		DABFBC972A94BA470055185C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DABFBC492A94B5D00055185C /* Assets.xcassets in Resources */,
+				DABFBCA42A94BA480055185C /* Preview Assets.xcassets in Resources */,
+				DABFBCA02A94BA480055185C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAE3B3452A7AB9DD004C572A /* Resources */ = {
+		DABFBCA72A94BA480055185C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE3B3532A7AB9DE004C572A /* Preview Assets.xcassets in Resources */,
-				DAE3B34F2A7AB9DE004C572A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABFBCB12A94BA480055185C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DABFBC382A93979D0055185C /* Sources */ = {
+		DABFBC952A94BA470055185C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DABFBC482A94B5CE0055185C /* ContentView.swift in Sources */,
-				DABFBC472A94B5CB0055185C /* meadow_uitesting_mockupApp.swift in Sources */,
-				DABFBC4C2A94B8070055185C /* meadow_uitesting_mockupUITests.swift in Sources */,
+				DABFBC9E2A94BA470055185C /* ContentView.swift in Sources */,
+				DABFBC9C2A94BA470055185C /* meadow_uitesting_mockupApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAE3B3432A7AB9DD004C572A /* Sources */ = {
+		DABFBCA52A94BA480055185C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE3B34D2A7AB9DD004C572A /* ContentView.swift in Sources */,
-				DAE3B34B2A7AB9DD004C572A /* meadow_uitesting_mockupApp.swift in Sources */,
+				DABFBCAE2A94BA480055185C /* meadow_uitesting_mockupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABFBCAF2A94BA480055185C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABFBCB82A94BA480055185C /* meadow_uitesting_mockupUITests.swift in Sources */,
+				DABFBCBA2A94BA480055185C /* meadow_uitesting_mockupUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DABFBC432A93979D0055185C /* PBXTargetDependency */ = {
+		DABFBCAB2A94BA480055185C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAE3B3462A7AB9DD004C572A /* meadow.uitesting.mockup */;
-			targetProxy = DABFBC422A93979D0055185C /* PBXContainerItemProxy */;
+			target = DABFBC982A94BA470055185C /* meadow.uitesting.mockup */;
+			targetProxy = DABFBCAA2A94BA480055185C /* PBXContainerItemProxy */;
+		};
+		DABFBCB52A94BA480055185C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABFBC982A94BA470055185C /* meadow.uitesting.mockup */;
+			targetProxy = DABFBCB42A94BA480055185C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		DABFBC452A93979D0055185C /* Debug */ = {
+		DABFBCBC2A94BA480055185C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = meadow.uitesting.mockup/meadow_uitesting_mockup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meadow.uitesting.mockup/Preview Content\"";
+				DEVELOPMENT_TEAM = S3J4DS9F7R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paula.meadow-uitesting-mockup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABFBCBD2A94BA480055185C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = meadow.uitesting.mockup/meadow_uitesting_mockup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meadow.uitesting.mockup/Preview Content\"";
+				DEVELOPMENT_TEAM = S3J4DS9F7R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paula.meadow-uitesting-mockup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DABFBCBF2A94BA480055185C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S3J4DS9F7R;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.wildland.meadow.uitesting.mockup;
+				PRODUCT_BUNDLE_IDENTIFIER = "paula.meadow-uitesting-mockupTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meadow.uitesting.mockup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/meadow.uitesting.mockup";
+			};
+			name = Debug;
+		};
+		DABFBCC02A94BA480055185C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3J4DS9F7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paula.meadow-uitesting-mockupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meadow.uitesting.mockup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/meadow.uitesting.mockup";
+			};
+			name = Release;
+		};
+		DABFBCC22A94BA480055185C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3J4DS9F7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "paula.meadow-uitesting-mockupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -242,23 +443,25 @@
 			};
 			name = Debug;
 		};
-		DABFBC462A93979D0055185C /* Release */ = {
+		DABFBCC32A94BA480055185C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S3J4DS9F7R;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.wildland.meadow.uitesting.mockup;
+				PRODUCT_BUNDLE_IDENTIFIER = "paula.meadow-uitesting-mockupUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = meadow.uitesting.mockup;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -371,94 +574,32 @@
 			};
 			name = Release;
 		};
-		DAE3B36D2A7AB9DF004C572A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = meadow.uitesting.mockup/meadow_uitesting_mockup.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"meadow.uitesting.mockup/Preview Content\"";
-				DEVELOPMENT_TEAM = S3J4DS9F7R;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.wildland.meadow.uitesting.mockup;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DAE3B36E2A7AB9DF004C572A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = meadow.uitesting.mockup/meadow_uitesting_mockup.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"meadow.uitesting.mockup/Preview Content\"";
-				DEVELOPMENT_TEAM = S3J4DS9F7R;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.wildland.meadow.uitesting.mockup;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DABFBC442A93979D0055185C /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupUITests" */ = {
+		DABFBCBB2A94BA480055185C /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DABFBC452A93979D0055185C /* Debug */,
-				DABFBC462A93979D0055185C /* Release */,
+				DABFBCBC2A94BA480055185C /* Debug */,
+				DABFBCBD2A94BA480055185C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABFBCBE2A94BA480055185C /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABFBCBF2A94BA480055185C /* Debug */,
+				DABFBCC02A94BA480055185C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABFBCC12A94BA480055185C /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABFBCC22A94BA480055185C /* Debug */,
+				DABFBCC32A94BA480055185C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -468,15 +609,6 @@
 			buildConfigurations = (
 				DAE3B36A2A7AB9DF004C572A /* Debug */,
 				DAE3B36B2A7AB9DF004C572A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DAE3B36C2A7AB9DF004C572A /* Build configuration list for PBXNativeTarget "meadow.uitesting.mockup" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAE3B36D2A7AB9DF004C572A /* Debug */,
-				DAE3B36E2A7AB9DF004C572A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

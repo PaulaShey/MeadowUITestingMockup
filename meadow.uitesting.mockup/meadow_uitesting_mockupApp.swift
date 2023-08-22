@@ -2,7 +2,7 @@
 //  meadow_uitesting_mockupApp.swift
 //  meadow.uitesting.mockup
 //
-//  Created by Paulina Grużewska on 02/08/2023.
+//  Created by Paulina Grużewska on 22/08/2023.
 //
 
 import SwiftUI

@@ -14,9 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DAE3B3462A7AB9DD004C572A"
+               BlueprintIdentifier = "DABFBC982A94BA470055185C"
                BuildableName = "meadow.uitesting.mockup.app"
                BlueprintName = "meadow.uitesting.mockup"
+               ReferencedContainer = "container:meadow.uitesting.mockup.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DABFBCA82A94BA480055185C"
+               BuildableName = "meadow.uitesting.mockupTests.xctest"
+               BlueprintName = "meadow.uitesting.mockupTests"
+               ReferencedContainer = "container:meadow.uitesting.mockup.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DABFBCB22A94BA480055185C"
+               BuildableName = "meadow.uitesting.mockupUITests.xctest"
+               BlueprintName = "meadow.uitesting.mockupUITests"
                ReferencedContainer = "container:meadow.uitesting.mockup.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -39,7 +67,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DAE3B3572A7AB9DE004C572A"
+               BlueprintIdentifier = "DABFBCA82A94BA480055185C"
                BuildableName = "meadow.uitesting.mockupTests.xctest"
                BlueprintName = "meadow.uitesting.mockupTests"
                ReferencedContainer = "container:meadow.uitesting.mockup.xcodeproj">
@@ -50,7 +78,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DABFBC3B2A93979D0055185C"
+               BlueprintIdentifier = "DABFBCB22A94BA480055185C"
                BuildableName = "meadow.uitesting.mockupUITests.xctest"
                BlueprintName = "meadow.uitesting.mockupUITests"
                ReferencedContainer = "container:meadow.uitesting.mockup.xcodeproj">
@@ -72,7 +100,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DAE3B3462A7AB9DD004C572A"
+            BlueprintIdentifier = "DABFBC982A94BA470055185C"
             BuildableName = "meadow.uitesting.mockup.app"
             BlueprintName = "meadow.uitesting.mockup"
             ReferencedContainer = "container:meadow.uitesting.mockup.xcodeproj">
@@ -89,7 +117,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DAE3B3462A7AB9DD004C572A"
+            BlueprintIdentifier = "DABFBC982A94BA470055185C"
             BuildableName = "meadow.uitesting.mockup.app"
             BlueprintName = "meadow.uitesting.mockup"
             ReferencedContainer = "container:meadow.uitesting.mockup.xcodeproj">
