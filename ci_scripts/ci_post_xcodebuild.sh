@@ -18,3 +18,16 @@ $(xcrun --find docc) process-archive transform-for-static-hosting $DOCC_ARCHIVE_
 
 # Copy the entire transformed documentation to the destination directory
 rsync -av --delete "${TEMP_OUTPUT_PATH}/" "${DESTINATION_PATH}/"
+
+# Change to the directory where the Git repository is
+cd "${SOURCE_ROOT}"
+
+# Stage the changes
+git add index.html
+
+# Commit the changes
+git commit -m "Update documentation."
+
+# Push to GitHub
+git push github main
+
