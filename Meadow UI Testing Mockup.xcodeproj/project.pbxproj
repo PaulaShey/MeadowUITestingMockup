@@ -35,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		DA5D466A2AA22E7700989939 /* ci_post_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_xcodebuild.sh; sourceTree = "<group>"; };
+		DA5D466B2AA238CF00989939 /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = SOURCE_ROOT; };
 		DAE3B3102A7AB91C004C572A /* Meadow UI Testing Mockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meadow UI Testing Mockup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3B3132A7AB91C004C572A /* Meadow_UI_Testing_MockupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meadow_UI_Testing_MockupApp.swift; sourceTree = "<group>"; };
 		DAE3B3152A7AB91C004C572A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				DA5D466A2AA22E7700989939 /* ci_post_xcodebuild.sh */,
+				DA5D466B2AA238CF00989939 /* SomeView.swift */,
 			);
 			path = ci_scripts;
 			sourceTree = "<group>";
