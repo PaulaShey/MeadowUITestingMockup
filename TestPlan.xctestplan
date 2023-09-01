@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "AFE87C4F-E104-4911-89BF-B42BA78795ED",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:meadow.uitesting.mockup.xcodeproj",
+        "identifier" : "DABFBC3B2A93979D0055185C",
+        "name" : "meadow.uitesting.mockupUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
