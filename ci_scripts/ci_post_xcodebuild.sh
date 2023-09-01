@@ -11,3 +11,5 @@ OUTPUT_PATH="${SOURCE_ROOT}/docs"
 
 # Run docc to process and transform the documentation archive
 $(xcrun --find docc) process-archive transform-for-static-hosting $DOCC_ARCHIVE_PATH --output-path $OUTPUT_PATH
+
+cat "${TEMP_OUTPUT_PATH}/index.html" > "${SOURCE_ROOT}/index.html"
