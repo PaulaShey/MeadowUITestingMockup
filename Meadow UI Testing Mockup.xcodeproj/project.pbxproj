@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA5D466D2AA33B3900989939 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D466B2AA238CF00989939 /* SomeView.swift */; };
 		DAE3B3142A7AB91C004C572A /* Meadow_UI_Testing_MockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B3132A7AB91C004C572A /* Meadow_UI_Testing_MockupApp.swift */; };
 		DAE3B3162A7AB91C004C572A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3B3152A7AB91C004C572A /* ContentView.swift */; };
 		DAE3B3182A7AB91D004C572A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3B3172A7AB91D004C572A /* Assets.xcassets */; };
@@ -34,8 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA5D466B2AA238CF00989939 /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = SOURCE_ROOT; };
-		DA5D466C2AA240BC00989939 /* ci_pre_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_pre_xcodebuild.sh; sourceTree = "<group>"; };
+		DA5D466B2AA238CF00989939 /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SomeView.swift; path = "Meadow UI Testing Mockup/SomeView.swift"; sourceTree = SOURCE_ROOT; };
+		DA5D466C2AA240BC00989939 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		DAE3B3102A7AB91C004C572A /* Meadow UI Testing Mockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meadow UI Testing Mockup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE3B3132A7AB91C004C572A /* Meadow_UI_Testing_MockupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meadow_UI_Testing_MockupApp.swift; sourceTree = "<group>"; };
 		DAE3B3152A7AB91C004C572A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,8 +78,7 @@
 		DA5D46692AA22D9100989939 /* ci_scripts */ = {
 			isa = PBXGroup;
 			children = (
-				DA5D466B2AA238CF00989939 /* SomeView.swift */,
-				DA5D466C2AA240BC00989939 /* ci_pre_xcodebuild.sh */,
+				DA5D466C2AA240BC00989939 /* ci_post_clone.sh */,
 			);
 			path = ci_scripts;
 			sourceTree = "<group>";
@@ -108,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				DAE3B3132A7AB91C004C572A /* Meadow_UI_Testing_MockupApp.swift */,
+				DA5D466B2AA238CF00989939 /* SomeView.swift */,
 				DAE3B3152A7AB91C004C572A /* ContentView.swift */,
 				DAE3B3172A7AB91D004C572A /* Assets.xcassets */,
 				DAE3B3192A7AB91D004C572A /* Meadow_UI_Testing_Mockup.entitlements */,
@@ -273,6 +274,7 @@
 			files = (
 				DAE3B3162A7AB91C004C572A /* ContentView.swift in Sources */,
 				DAE3B3142A7AB91C004C572A /* Meadow_UI_Testing_MockupApp.swift in Sources */,
+				DA5D466D2AA33B3900989939 /* SomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

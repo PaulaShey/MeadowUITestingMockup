@@ -1,11 +1,11 @@
 #!/bin/sh
 
-#  ci_pre_xcodebuild.sh
+#  ci_post_clone.sh
 #  Meadow UI Testing Mockup
 #
 #  Created by Paulina Grużewska on 01/09/2023.
 # # Define paths
-DOCC_ARCHIVE_PATH="${BUILD_DIR}/MyApp.doccarchive"
+DOCC_ARCHIVE_PATH="${BUILD_DIR}/Meadow UI Testing Mockup.doccarchive"
 TEMP_OUTPUT_PATH="${TMPDIR}/docs"
 DESTINATION_PATH="${SOURCE_ROOT}/docs"
 
