@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#  ci_pre_xcodebuild.sh
+#  ci_post_clone.sh
 #  Meadow UI Testing Mockup
 #
 #  Created by Paulina Grużewska on 01/09/2023.
