@@ -5,7 +5,7 @@
 #
 #  Created by Paulina Grużewska on 01/09/2023.
 # # Define paths
-DOCC_ARCHIVE_PATH="${BUILD_DIR}/Meadow UI Testing Mockup.doccarchive"
+DOCC_ARCHIVE_PATH="${BUILD_DIR}/meadow.uitesting.mockup.doccarchive"
 TEMP_OUTPUT_PATH="${TMPDIR}/docs"
 DESTINATION_PATH="${SOURCE_ROOT}/docs"
 

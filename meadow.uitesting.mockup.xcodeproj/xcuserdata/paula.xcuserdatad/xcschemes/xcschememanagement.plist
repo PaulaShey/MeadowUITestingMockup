@@ -7,7 +7,30 @@
 		<key>Meadow UI Testing Mockup.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>meadow.uitesting.mockup.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DAE3B30F2A7AB91C004C572A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DAE3B3202A7AB91D004C572A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DAE3B32A2A7AB91D004C572A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
