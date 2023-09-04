@@ -10,14 +10,14 @@ DESTINATION_PATH="./docs"
 DESTINATION_PATH="./docs"
 
 
-xcodebuild doccbuild -scheme meadow.uitesting.mockup -destination 'platform=iOS Simulator,name=iPhone 14'
+xcodebuild docbuild
 
 
 # Run docc to process and transform the documentation archive
-$(xcrun --find docc) process-archive transform-for-static-hosting $DOCC_ARCHIVE_PATH --output-path $TEMP_OUTPUT_PATH
+#$(xcrun --find docc) process-archive transform-for-static-hosting $DOCC_ARCHIVE_PATH --output-path $TEMP_OUTPUT_PATH
 
 # Copy the entire transformed documentation to the destination directory
-rsync -av --delete "${TEMP_OUTPUT_PATH}/" "${DESTINATION_PATH}/"
+#rsync -av --delete "${TEMP_OUTPUT_PATH}/" "${DESTINATION_PATH}/"
 
 # Change to the directory where the Git repository is
  cd ..
