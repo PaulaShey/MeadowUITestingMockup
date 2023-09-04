@@ -19,5 +19,7 @@ rsync -av --delete "${TEMP_OUTPUT_PATH}/" "${DESTINATION_PATH}/"
 echo "source root = ${SOURCE_ROOT}"
 echo "destination path = ${DESTINATION_PATH}"
 echo  "docc archive path = ${DOCC_ARCHIVE_PATH}"
+echo "BUILD_DIR: $BUILD_DIR"
+echo "SRCROOT: $SRCROOT"
 
 echo "repos = $(git remote -v)"
